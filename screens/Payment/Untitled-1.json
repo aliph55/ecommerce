@@ -1,0 +1,21 @@
+{
+  "idToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjI4YTQyMWNhZmJlM2RkODg5MjcxZGY5MDBmNGJiZjE2ZGI1YzI0ZDQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI1ODU4MjI4ODI5NDQtZjRkZjd0amVldHFoaGNlMXAxZ2lvMHBtNXJjOGxpaGguYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI1ODU4MjI4ODI5NDQtampoMmd2N2pkajFkbDNlZjhmdTVlODVuZmgwNmVrNmYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTc2MzQwOTQ1MzU1NTkxMDQ3MTMiLCJlbWFpbCI6ImFsaS5wb3VyaGFzc2FuNTVAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5hbWUiOiJBbGkgUG91cmhhc3NhbiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NLWDZPeVE2ZG4yNEpxWTVvX2o1RkhxS2NRSG9RMXdYaVRCa3piX0FQV1FnOUNQM0hiOD1zOTYtYyIsImdpdmVuX25hbWUiOiJBbGkiLCJmYW1pbHlfbmFtZSI6IlBvdXJoYXNzYW4iLCJpYXQiOjE3Mjg0OTY5NTksImV4cCI6MTcyODUwMDU1OX0.FU3edvCp7AqbHclfBqPLGZrGAb5bHslOrDVWM_LVazYjLBeg7ROcqdZN5g-vAQJuEGj0I6FXpo1SnYGVEc2lY3Tg61vUupsbcDituoP4u569xDSg2gmUNnDy3AjZV-ysPeDzTBeo103_Dm3i16H6cCqnvbdtpFqUebMZG1YnXejZWQkmd9WX_LC38N8wuWDw8d2XfOJYb5pQSjI_6a4u7Xgx1CCgdwP5Zh9J7YQAvrS2Y103yQLlnX7HmNXwF0OH_bNrwQ2bnye2PseNJFBK_PFBK-4UKCPk1JpgpVmLjcI80sTOOvE6Qqxk4JORgp_XAh6QsoRDWeLbP9cj4qO3Jg",
+  "scopes": [
+    "https://www.googleapis.com/auth/bigquery",
+    "https://www.googleapis.com/auth/userinfo.profile",
+    "https://www.googleapis.com/auth/userinfo.email",
+    "openid",
+    "profile",
+    "https://www.googleapis.com/auth/drive.readonly",
+    "email"
+  ],
+  "serverAuthCode": null,
+  "user": {
+    "email": "ali.pourhassan55@gmail.com",
+    "familyName": "Pourhassan",
+    "givenName": "Ali",
+    "id": "117634094535559104713",
+    "name": "Ali Pourhassan",
+    "photo": "https://lh3.googleusercontent.com/a/ACg8ocKX6OyQ6dn24JqY5o_j5FHqKcQHoQ1wXiTBkzb_APWQg9CP3Hb8=s96-c"
+  }
+}
