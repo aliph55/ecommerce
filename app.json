@@ -2,24 +2,28 @@
   "expo": {
     "name": "ecommerce",
     "slug": "ecommerce",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/ic_launcher.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/ic_launcher.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/ic_launcher.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.alipourhassan.ecommerce"
+      "package": "com.alipourhassan.ecommerce",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -31,6 +35,9 @@
       "eas": {
         "projectId": "64047e2d-a94b-432f-a1cb-40560454b40c"
       }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/64047e2d-a94b-432f-a1cb-40560454b40c"
     }
   }
 }

@@ -7,8 +7,11 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { logIn } from "../redux/User";
 import { useWindowDimensions, View } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
-export default function ({ navigation }) {
+export default function ({}) {
+  const navigation = useNavigation();
+
   GoogleSignin.configure({
     scopes: ["https://www.googleapis.com/auth/drive.readonly"], // what API you want to access on behalf of the user, default is email and profile
     webClientId:
@@ -24,7 +27,7 @@ export default function ({ navigation }) {
       // console.log("getCurrentUserInfo ", { userInfo });
       dispatch(logIn(userInfo));
       if (userInfo.type === "success") {
-        navigation.navigate("Home");
+        return navigation.navigate("Home");
       }
     } catch (error) {
       if (error.code === statusCodes.SIGN_IN_REQUIRED) {
@@ -37,7 +40,7 @@ export default function ({ navigation }) {
 
   const getCurrentUser = async () => {
     const currentUser = await GoogleSignin.getCurrentUser();
-    if (currentUser) {
+    if (currentUser.type === "success") {
       navigation.navigate("Home");
     }
   };
@@ -69,6 +72,11 @@ export default function ({ navigation }) {
           try {
             await GoogleSignin.hasPlayServices();
             const userInfo = await GoogleSignin.signIn();
+            if (userInfo.type === "success") {
+              dispatch(logIn(userInfo));
+
+              navigation.navigate("Home");
+            }
             console.log(JSON.stringify(userInfo));
             // console.log(userInfo);
           } catch (error) {
